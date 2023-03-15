@@ -6,12 +6,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import("@docusaurus/types").Config} */
 const config = {
-  title: "Alex Congritta Blog",
+  title: "Alex Congritta",
   tagline: "congritta",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://blog.congritta.com",
+  url: "https://congritta.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "congritta", // Usually your GitHub org/user name.
-  projectName: "blog", // Usually your repo name.
+  projectName: "en-site", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "ru",
-    locales: ["ru"],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
@@ -44,9 +44,9 @@ const config = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
-        blog: {
-          showReadingTime: true,
-        },
+        // blog: {
+        //   showReadingTime: true,
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -55,14 +55,14 @@ const config = {
   ],
 
   themeConfig:
-  /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
+    /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
     ({
       // Replace with your project's social card
       image: "img/social-card.jpg",
       navbar: {
-        title: "Alex Congritta Blog",
+        title: "Alex Congritta",
         logo: {
-          alt: "Alex Congritta Blog Logo",
+          alt: "Alex Congritta Logo",
           src: "img/logo.svg",
         },
         items: [
@@ -72,11 +72,11 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: "/blog", label: "Блог", position: "left"},
+          // { to: "/blog", label: "Блог", position: "left" },
           {
-            href: "https://congritta.com",
-            label: "Основной сайт",
-            position: "right",
+            href: "https://congritta.ru",
+            label: "На Русском",
+            position: "left",
           },
           {
             href: "https://github.com/congritta",
@@ -96,11 +96,6 @@ const config = {
           {
             href: "https://www.youtube.com/@congritta",
             label: "YouTube",
-            position: "right",
-          },
-          {
-            href: "https://vk.com/congritta_blog",
-            label: "VK",
             position: "right",
           },
         ],
