@@ -4,7 +4,7 @@ hide_table_of_contents: true
 
 # Alex Congritta
 
-I`m **23 years old**. I do **React/Node** projects.
+I`m **24 years old**. I do **React/Node** projects.
 
 ---
 
@@ -22,7 +22,7 @@ I`m **23 years old**. I do **React/Node** projects.
 
 - **React**. I know more of React including hooks, state, ticks and how it all work. I work with most React libs
   including react-router, redux (however redux can be used outside of React), formik (or useForm.js) and so on;
-- **NodeJS**. I dont' like Express. I made [own HTTP framework](https://yah.congritta.com);
+- **NodeJS**.
 
 ### Other
 
@@ -44,12 +44,6 @@ I`m **23 years old**. I do **React/Node** projects.
 
 ## My projects
 
-- **Yet Another HTTP** - the HTTP Server framework for
-  Node.JS. [NPM](https://npmjs.com/package/yet-another-http). [GitHub](https://github.com/congritta/yet-another-http). [Docs site](https://yah.congritta.com);
-- **CRA Scaffold**. A scaffold for creating react apps very
-  fast. [Example](https://cra.congritta.com). [Github](https://github.com/congritta/cra-scaffold);
-- **Talkings Messenger**. At this time, only frontend
-  implemented. [Site](https://git.congritta.com/talkings-frontend). [Github](https://github.com/congritta/talkings-frontend);
 - **Blockchain Bot**. I made my own cryptocurrency blockchain as Telegram
   Bot. [Bot Link](https://t.me/congrittaBlockchainBot). [Github](https://github.com/congritta/blockchain-bot);
 - **Text-to-Speech Bot**. This Telegram Bot can synthesize any text message to
