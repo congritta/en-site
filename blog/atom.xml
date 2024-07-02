@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://congritta.com/blog</id>
+    <title>Alex Congritta Blog</title>
+    <updated>2023-02-18T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://congritta.com/blog"/>
+    <subtitle>Alex Congritta Blog</subtitle>
+    <icon>https://congritta.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Post]]></title>
+        <id>https://congritta.com/blog/first-post</id>
+        <link href="https://congritta.com/blog/first-post"/>
+        <updated>2023-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[First post contents]]></summary>
+        <content type="html"><![CDATA[<p>First post contents</p>]]></content>
+        <author>
+            <name>Alex Congritta</name>
+            <uri>https://congritta.com</uri>
+        </author>
+    </entry>
+</feed>
